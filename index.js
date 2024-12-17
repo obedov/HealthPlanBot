@@ -69,10 +69,11 @@ async function fetchHealthPlanRecommendation(familySize, income, gender) {
     });
 
     bot.onText(/\/help/, async (msg) => {
-        const helpMessage = `Commands:
-            /start - Start a new conversation
-            /help - Show available commands
-            /cancel - Cancel the current conversation.`;
+        const helpMessage =
+            "Commands:\n" +
+            "/start - Start a new conversation\n" +
+            "/help - Show available commands\n" +
+            "/cancel - Cancel the current conversation.";
         await bot.sendMessage(msg.chat.id, helpMessage);
     });
 
