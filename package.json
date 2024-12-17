@@ -1,0 +1,27 @@
+{
+  "name": "healthplanbot",
+  "version": "1.0.0",
+  "description": "Simple Telegram bot for health insurance inquiries",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mongodb": "^6.12.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "openai": "^4.76.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "health insurance",
+    "mongodb"
+  ],
+  "author": "Nikita Obedkov",
+  "license": "MIT"
+}
